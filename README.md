@@ -22,6 +22,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Stripe Configuration
 
+The Payment page is in the `app/(tabs)/payment.tsx` file.
 Set the Stripe publishable/Public key in the `app/(tabs)/payment.tsx` file
 
 ---
