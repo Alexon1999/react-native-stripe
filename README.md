@@ -23,7 +23,16 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ## Stripe Configuration
 
 The Payment page is in the `app/(tabs)/payment.tsx` file.
-Set the Stripe publishable/Public key in the `app/(tabs)/payment.tsx` file
+Set the Stripe publishable/Public key in the `app/(tabs)/payment.tsx` file.
+
+The Backend of the app is in this repository: [django-stripe](https://github.com/Alexon1999/django-stripe). You can clone it and follow the instructions in the README file to set up the backend.
+
+In your React Native app, Don't forget to change the URL in the `app/(tabs)/payment.tsx` file. It depends on your development environment (Android, iOS, or Web, Expo GO).
+
+- for IOS simulator: you can use `localhost` as the host.
+- for Android emulator: you can use `10.0.2.2` as the host.
+- for Web: you can use `localhost` as the host.
+- for Expo Go: you can use your Local IP address in your LAN (Local Area Network) URL provided by Expo.
 
 ---
 
